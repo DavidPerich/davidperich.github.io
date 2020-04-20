@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://opg.me/ns#">
+
+<head>
+  <title>Will Mills</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="public/stylesheets/style.css" />
+  <meta name="title" property="og:title" content="Will Mills" />
+  <meta name="description" property="og:description"
+    content="I'm a full stack software engineer in Toronto, Ontario & co-creator of RedPoint Notebooks" />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="image" property="og:image" content="public/assets/images/android-icon-192x192.png" />
+  <meta name="author" content="Will Mills" />
+  <!-- ICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicons/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#2b5797" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/w-mills/" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo" />
+    </a>
+    <a href="public/assets/w-mills-resume.pdf" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Will Mills' resume" id="resume-logo" />
+    </a>
+    <a href="https://www.linkedin.com/in/w-mills" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Will Mills' LinkedIn" id="linkedin-logo" />
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/will.jpg" alt="photo of Will Mills" />
+      <h2 id="name">Will Mills</h2>
+      <p>
+        I'm a full stack software engineer in Toronto, Ontario with experience
+        in Node/JavaScript, Ruby/Rails, Docker, React.js, and PostgreSQL.
+      </p>
+      <p>
+        I recently built
+        <a class="redpoint" href="https://redpoint-notebooks.github.io/" target="_blank">RedPoint</a>, a web-native
+        computational notebook for programmers.
+      </p>
+    </section>
+    <section id="redpoint" class="flexbox horz-center">
+      <div id="redpoint-title-container" class="flexbox">
+        <a href="https://redpoint-notebooks.github.io/"><img id="redpoint-logo"
+            src="public/assets/images/redpoint-brand-logo_horizontal-on_dark.png" alt="redpoint logo" /></a>
+      </div>
+      <div id="redpoint-info-container" class="flexbox">
+        <div>
+          <a href="https://redpoint-notebooks.github.io/" target="_blank">
+            <img id="multilanguage-gif" src="public/assets/images/multi_language.gif"
+              alt="A gif showing the redpoint running multiple languages simultaneously" />
+          </a>
+        </div>
+        <div class="flexbox horz-center">
+          <p>
+            RedPoint is an open source, web-native notebook optimized for
+            sharing and presenting code, with support for multiple languages,
+            webhooks and APIs.
+          </p>
+          <p>
+            Read our case study to learn about the engineering behind
+            RedPoint, including how we strengthened security with container
+            isolation and a secure runtime, buffered incoming webhook data
+            with a Redis queue, and wrote a reverse proxy server with Node.js
+            to forward HTTP and WebSocket traffic.
+          </p>
+
+          <a id="redpoint-repo-btn" class="btn" target="_blank" href="https://redpoint-notebooks.github.io/">Read the
+            RedPoint Case Study</a>
+        </div>
+      </div>
+      <!-- <div id="redpoint-video-container" class="flexbox">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZO4O38Ogvs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="flexbox horz-center">
+          <p>Check out the presentation I gave to an online school on how I built <a class="redpoint" href="https://launchschool.com/gists/4c4a6f8e">RedPoint Presentation</a>.</p>
+        </div>
+      </div> -->
+    </section>
+    <section id="projects" class="flexbox horz-center">
+      <h2>Other projects</h2>
+      <ul class="flexbox vert-center">
+        <li>
+          <img src="public/assets/images/reaction.png" alt="Screenshot of pay calculator application" />
+          <h4>Reaction</h4>
+          <p>
+            A personal project management app inspired by Trello, using a Rails back-end API with a PostgreSQL database
+            and a
+            React/Redux front-end.
+          </p>
+        </li>
+        <li>
+          <img src="public/assets/images/postit.png" alt="Screenshot of postit application" />
+          <h4>Postit</h4>
+          <p>
+            A Reddit-like application built with Ruby on Rails using an SQL database.
+            Allows users to create, comment, upvote/downvote posts, and edit
+            profile information.
+          </p>
+        </li>
+        <li>
+          <img src="public/assets/images/todos.png" alt="Screenshot of todos application" />
+          <h4>Listoid</h4>
+          <p>
+            A responsive application for personal task management, built with
+            a Ruby/Sinatra back-end and JavaScript and Handlebars.js front-end.
+          </p>
+        </li>
+
+      </ul>
+    </section>
+    <section id="contact" class="flexbox horz-center">
+      <h4>
+        <a href="mailto:millswilliamrobert@gmail.com">millswilliamrobert@gmail.com</a>
+      </h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/w-mills-resume.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Will Mills' resume" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/w-mills" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Will Mills' GitHub" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/w-mills" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Will Mills' LinkedIn" />
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
