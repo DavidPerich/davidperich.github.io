@@ -49,14 +49,14 @@ html {
 }
 
 h1 {
-  color: #ed7164;
+  color: #e67952;
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   text-align: center;
 }
 
 h2 {
-  color: #ed7164;
+  color: #e67952;
   font-family: "Roboto", sans-serif;
   font-size: 2.2rem;
   font-weight: 900;
@@ -66,7 +66,7 @@ h2 {
 
 h3,
 #resume-btn {
-  color: #ed7164;
+  color: #e67952;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -114,7 +114,7 @@ header {
 
 h4 {
   align-items: center;
-  color: #a0aab5;
+  color: #e67952;
   display: flex;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
@@ -146,7 +146,7 @@ h4 a {
 }
 
 h4 a:hover {
-  color: #ed7164;
+  color: #1b262cff;
 }
 
 a.venice {
@@ -191,7 +191,7 @@ footer {
 }
 
 .btn {
-  background-color: #ed7164;
+  background-color: #e67952;
   border-radius: 5px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -201,7 +201,7 @@ footer {
 }
 
 .icon {
-  background-color: #ed7164;
+  background-color: #e67952;
   border-radius: 25px;
   margin: 2%;
   min-width: 34px;
@@ -211,13 +211,13 @@ footer {
 
 .logo-links .btn:hover,
 .logo-links .icon:hover {
-  background-color: #3a4354;
+  background-color: #1b262cff;
   filter: invert(15%);
 }
 
 .btn:hover,
 .icon:hover {
-  background-color: #3a4354;
+  background-color: #1b262cff;
 }
 
 .horz-center {
@@ -263,7 +263,7 @@ footer {
 #intro > p {
   text-align: center;
   width: 550px;
-  color: #0f4c75;
+  color: #1b262cff;
 }
 
 /* ---------------------------------
@@ -273,7 +273,7 @@ footer {
 ------------------------------------ */
 
 #venice {
-  background-color: #6897bb;
+  background-color: #1b262cff;
 }
 
 #venice-title-container,
@@ -286,7 +286,7 @@ footer {
 #venice-logo {
   display: inline-block;
   width: 100%;
-  max-width: 500px;
+  max-width: 300px;
   min-width: 200px;
 }
 
@@ -340,6 +340,10 @@ div > iframe {
   margin-top: 35px;
   width: 180px;
   padding: 10px;
+}
+
+#venice p {
+  color: white;
 }
 
 /* ---------------------------------
