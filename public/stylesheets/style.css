@@ -91,7 +91,7 @@ header {
   height: 40px;
 }
 
-#intro>h4>img {
+#intro > h4 > img {
   display: inline-block;
   padding-right: 5px;
 }
@@ -100,7 +100,7 @@ header {
   color: #000000;
 }
 
-#projects>ul {
+#projects > ul {
   -ms-align-items: flex-start;
   align-items: flex-start;
   margin-top: 75px;
@@ -149,12 +149,12 @@ h4 a:hover {
   color: #ed7164;
 }
 
-a.redpoint {
-  color: #ed7164;
+a.venice {
+  color: #e67952;
 }
 
-a.redpoint:hover {
-  color: #6897bb;
+a.venice:hover {
+  color: #bbe1fa;
 }
 
 a {
@@ -250,63 +250,63 @@ footer {
   display: block;
   max-width: 250px;
   min-width: 200px;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   margin: 0 auto 20px;
   width: 30vw;
   max-width: 250px;
 }
 
 #intro {
-  background: #3a4354;
+  background: white;
 }
 
-#intro>p {
+#intro > p {
   text-align: center;
   width: 550px;
-  color: #ffffff;
+  color: #0f4c75;
 }
 
 /* ---------------------------------
 
-               #redpoint
+               #venice
 
 ------------------------------------ */
 
-#redpoint {
+#venice {
   background-color: #6897bb;
 }
 
-#redpoint-title-container,
-#redpoint-video-container {
+#venice-title-container,
+#venice-video-container {
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
 }
 
-#redpoint-logo {
+#venice-logo {
   display: inline-block;
   width: 100%;
   max-width: 500px;
   min-width: 200px;
 }
 
-#redpoint h2 {
+#venice h2 {
   display: inline-block;
 }
 
-#redpoint-info-container,
-#redpoint-video-container {
+#venice-info-container,
+#venice-video-container {
   margin-top: 75px;
   align-items: center;
 }
 
-#redpoint-info-container>div,
-#redpoint-video-container>div {
+#venice-info-container > div,
+#venice-video-container > div {
   width: 50%;
 }
 
-#redpoint-info-container>div:first-of-type,
-#redpoint-video-container>div:first-of-type {
+#venice-info-container > div:first-of-type,
+#venice-video-container > div:first-of-type {
   margin-right: 2.5%;
 }
 
@@ -318,25 +318,25 @@ footer {
   border-radius: 5px;
 }
 
-div>iframe {
+div > iframe {
   max-width: 100%;
 }
 
-#redpoint-info-container>div:last-of-type,
-#redpoint-video-container>div:last-of-type {
+#venice-info-container > div:last-of-type,
+#venice-video-container > div:last-of-type {
   margin-left: 2.5%;
 }
 
-#redpoint-video-container div:last-of-type>p {
+#venice-video-container div:last-of-type > p {
   width: 75%;
 }
 
-#redpoint p:first-of-type {
+#venice p:first-of-type {
   position: relative;
   top: -0.5rem;
 }
 
-#redpoint-repo-btn {
+#venice-repo-btn {
   margin-top: 35px;
   width: 180px;
   padding: 10px;
@@ -429,7 +429,7 @@ div>iframe {
     line-height: 1.7rem;
   }
 
-  #projects>ul {
+  #projects > ul {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
@@ -440,31 +440,31 @@ div>iframe {
     width: 50px;
   }
 
-  #redpoint-info-container,
-  #redpoint-video-container {
+  #venice-info-container,
+  #venice-video-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
   }
 
-  #redpoint-info-container>div:first-of-type,
-  #redpoint-video-container>div:first-of-type {
+  #venice-info-container > div:first-of-type,
+  #venice-video-container > div:first-of-type {
     margin-right: 0;
   }
 
-  #redpoint-info-container>div:last-of-type,
-  #redpoint-video-container>div:last-of-type {
+  #venice-info-container > div:last-of-type,
+  #venice-video-container > div:last-of-type {
     margin-left: 0;
   }
 
-  #redpoint-info-container>div,
-  #redpoint-video-container>div {
+  #venice-info-container > div,
+  #venice-video-container > div {
     width: 90%;
   }
 
   #multilanguage-gif,
-  div>iframe {
+  div > iframe {
     margin-bottom: 50px;
   }
 
@@ -478,24 +478,24 @@ div>iframe {
 }
 
 @media (max-width: 690px) {
-  #redpoint-logo {
+  #venice-logo {
     margin-bottom: 25px;
     width: 75px;
   }
 
-  #redpoint-title-container {
+  #venice-title-container {
     -ms-align-items: center;
     align-items: center;
     flex-direction: column;
   }
 
-  #redpoint-logo {
+  #venice-logo {
     margin-right: 0;
   }
 }
 
 @media (max-width: 570px) {
-  #intro>p {
+  #intro > p {
     width: 100%;
   }
 
@@ -512,25 +512,25 @@ div>iframe {
     padding: 65px 15%;
   }
 
-  #redpoint-info-container {
+  #venice-info-container {
     margin-top: 25px;
   }
 
-  #redpoint-repo-btn {
+  #venice-repo-btn {
     align-self: center;
   }
 
-  #projects>ul {
+  #projects > ul {
     width: 100%;
   }
 }
 
 @media (max-width: 465px) {
-  #redpoint-info-container>div {
+  #venice-info-container > div {
     width: 100%;
   }
 
-  #redpoint-logo {
+  #venice-logo {
     width: 60px;
   }
 
@@ -538,7 +538,7 @@ div>iframe {
     margin: 15%;
   }
 
-  #projects>ul {
+  #projects > ul {
     width: 100%;
   }
 }
@@ -560,11 +560,11 @@ div>iframe {
     font-size: 1.2rem;
   }
 
-  #redpoint-repo-btn {
+  #venice-repo-btn {
     width: 180px;
   }
 
-  #projects>ul {
+  #projects > ul {
     margin-top: 50px;
   }
 
