@@ -322,6 +322,9 @@ div > iframe {
   max-width: 100%;
 }
 
+figcaption {
+}
+
 #venice-info-container > div:last-of-type,
 #venice-video-container > div:last-of-type {
   margin-left: 2.5%;
@@ -342,8 +345,14 @@ div > iframe {
   padding: 10px;
 }
 
-#venice p {
+#venice p,
+figcaption {
   color: white;
+}
+
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 /* ---------------------------------
