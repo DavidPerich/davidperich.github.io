@@ -173,6 +173,10 @@ tr:hover td {
     cursor: help;
 }
 
+.team-crest.eliminated {
+    filter: grayscale(100%) opacity(0.35);
+}
+
 .team-crest:hover {
     transform: scale(1.3);
 }
