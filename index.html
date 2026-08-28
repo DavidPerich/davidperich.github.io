@@ -4,7 +4,90 @@
     <title>David Perich</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="public/stylesheets/style.css" />
+    <style>
+      :root {
+        --bg-color: #fcfcfc;
+        --text-color: #1a1a1a;
+        --link-color: #0066cc;
+        --accent-color: #555555;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #121212;
+          --text-color: #e0e0e0;
+          --link-color: #66b2ff;
+          --accent-color: #aaaaaa;
+        }
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+        line-height: 1.6;
+        margin: 0;
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      main {
+        max-width: 650px;
+        width: 100%;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        margin: 0 0 0.2rem 0;
+        font-weight: bold;
+      }
+
+      .subtitle {
+        font-size: 1.1rem;
+        color: var(--accent-color);
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+        margin: 2rem 0 1rem 0;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0 0 1.2rem 0;
+      }
+
+      ul {
+        list-style-type: "- ";
+        padding-left: 1.2rem;
+        margin: 0 0 2rem 0;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        color: var(--link-color);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        margin-top: 3rem;
+        border-top: 1px dashed var(--accent-color);
+        padding-top: 1.5rem;
+      }
+    </style>
     <meta name="title" property="og:title" content="David Perich" />
     <meta name="description" property="og:description" content="David Perich - Staff Software Engineer" />
     <meta name="type" property="og:type" content="website" />
