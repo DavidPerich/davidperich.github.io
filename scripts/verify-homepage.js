@@ -3,10 +3,12 @@ const path = require('path');
 const assert = require('assert').strict;
 
 const indexPath = path.join(__dirname, '../index.html');
+const stylePath = path.join(__dirname, '../public/stylesheets/style.css');
 
 try {
   console.log('Starting verification of index.html...');
   const html = fs.readFileSync(indexPath, 'utf-8');
+  const css = fs.readFileSync(stylePath, 'utf-8');
 
   // 1. Verify basic HTML layout
   assert.match(html, /<!DOCTYPE html>/i, 'Should have DOCTYPE');
@@ -25,9 +27,9 @@ try {
   assert.match(html, /href="mailto:hello@davidperich\.com"/, 'Should contain clickable mailto link');
 
   // 4. Verify Monospace Styling & Media Queries
-  assert.match(html, /ui-monospace|SFMono-Regular|monospace/, 'Should use monospace fonts');
-  assert.match(html, /prefers-color-scheme:\s*dark/i, 'Should contain prefers-color-scheme dark media query');
-  assert.match(html, /--bg-color/i, 'Should use CSS variables for theme colours');
+  assert.match(css, /ui-monospace|SFMono-Regular|monospace/, 'Should use monospace fonts');
+  assert.match(css, /prefers-color-scheme:\s*dark/i, 'Should contain prefers-color-scheme dark media query');
+  assert.match(css, /--bg-color/i, 'Should use CSS variables for theme colours');
 
   console.log('✅ Homepage verification PASSED!');
   process.exit(0);
