@@ -15,9 +15,9 @@ try {
 
   // 2. Verify Exact Copy
   assert.match(html, /David Perich/i, 'Should contain David Perich');
-  assert.match(html, /Staff Software Engineer/i, 'Should contain title');
+  assert.match(html, /Software Engineer/i, 'Should contain title');
   assert.match(html, /Staff Software Engineer at Ferocia \/ Up Bank/i, 'Should contain professional role');
-  assert.match(html, /Projects I host here so my wife\/friends can find them/i, 'Should contain specific projects section header');
+  assert.match(html, /Projects I host here so I remember where to find them/i, 'Should contain specific projects section header');
 
   // 3. Verify Links
   assert.match(html, /href="https:\/\/books\.davidperich\.com"/, 'Should link to books subdomain');
